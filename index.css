@@ -1,0 +1,118 @@
+.catProfile img
+{
+    width: 400px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.catProfile img:hover
+{
+    opacity: 1;
+}
+
+.catProfile
+{
+    border: solid 1px;
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+}
+
+.catProfile:hover
+{
+    border: solid 5px;
+    display: inline-block;
+    margin: auto;
+    box-shadow: 4px 4px 50px;
+}
+
+.catProfile > h3
+{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.catProfile > h3:hover
+{
+    color: white;
+    text-shadow: 4px 4px 10px;
+}
+
+.desc
+{
+    display: none;
+}
+
+article
+{
+    margin: auto;
+    padding: 15px;
+    background: grey;
+}
+
+input[class='modeChanger']:checked ~ .catProfile img
+{
+    width: 800px;
+    height: 1000px;
+    opacity: 1;
+}
+
+input[class='modeChanger']:checked ~ .catProfile img:hover
+{
+    opacity: 1;
+}
+
+input[class='modeChanger']:checked ~ .catProfile
+{
+    border: solid 1px;
+    width: 800px;
+    display: block;
+    margin: auto;
+    font-size: 200%;
+}
+
+input[class='modeChanger']:checked ~ .catProfile:hover
+{
+    border: solid 5px;
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px 50px;
+}
+
+input[class='modeChanger']:checked ~ .catProfile > h3
+{
+    text-align: center;
+}
+
+input[class='modeChanger']:checked ~ .catProfile > h3:hover
+{
+    color: white;
+    text-shadow: 4px 4px 10px;
+}
+
+input[class='modeChanger']:checked ~ .catProfile .desc
+{
+    display: block;
+}
+
+.modeChanger
+{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+}
+
+.song
+{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

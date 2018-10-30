@@ -2,7 +2,7 @@
 {
     width: 400px;
     height: 500px;
-    opacity: 0.8;
+    opacity: .8;
 }
 
 .catProfile img:hover
@@ -112,7 +112,8 @@ input[class='modeChanger']:checked ~ .catProfile .desc
     text-align: center;
 }
 
-a{
+a
+{
     text-decoration: none;
     color: inherit;
 }
